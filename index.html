@@ -1,0 +1,56 @@
+<head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="text.css" media="screen"/>
+  </head>
+<body>
+  <div class="container" id="jigsaw-puzzle">
+    <p class="lead">Drag the pieces into the grid to complete the puzzle and see what you'll find.</p>
+    <div class="row">
+      <div class="col-md-5">
+        <div class="row" id="puzzle-pieces-area">
+        </div>
+        <div class="row" id="jigsaw-complete-video">
+          <div class="embed-responsive embed-responsive-16by9">
+            <video width="400" controls>
+                <source src="Wedding invite.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+              </video>
+                        
+          </div>
+        </div>
+      </div>
+      <div class ="col-md-1"></div>
+      <div class="col-md-5">
+        <div id="puzzle-working-area">
+          <div class="row">
+            <div class="col-3 jigsaw-space jigsaw-drop-space" data-piece="0"><img src="img/1.jpg" alt="" class="jigsaw-space-holder" /></div>
+            <div class="col-3 jigsaw-space jigsaw-drop-space" data-piece="1"><img src="img/1.jpg" alt="" class="jigsaw-space-holder" /></div>
+            <div class="col-3 jigsaw-space jigsaw-drop-space" data-piece="2"><img src="img/1.jpg" alt="" class="jigsaw-space-holder" /></div>
+            <div class="col-3 jigsaw-space jigsaw-drop-space" data-piece="3"><img src="img/1.jpg" alt="" class="jigsaw-space-holder" /></div>
+          </div>
+          <div class="row">
+            <div class="col-3 jigsaw-space jigsaw-drop-space" data-piece="4"><img src="img/1.jpg" alt="" class="jigsaw-space-holder" /></div>
+            <div class="col-3 jigsaw-space jigsaw-drop-space" data-piece="5"><img src="img/1.jpg" alt="" class="jigsaw-space-holder" /></div>
+            <div class="col-3 jigsaw-space jigsaw-drop-space" data-piece="6"><img src="img/1.jpg" alt="" class="jigsaw-space-holder" /></div>
+            <div class="col-3 jigsaw-space jigsaw-drop-space" data-piece="7"><img src="img/1.jpg" alt="" class="jigsaw-space-holder" /></div>
+          </div>
+          <div class="row">
+            <div class="col-3 jigsaw-space jigsaw-drop-space" data-piece="8"><img src="img/1.jpg" alt="" class="jigsaw-space-holder" /></div>
+            <div class="col-3 jigsaw-space jigsaw-drop-space" data-piece="9"><img src="img/1.jpg" alt="" class="jigsaw-space-holder" /></div>
+            <div class="col-3 jigsaw-space jigsaw-drop-space" data-piece="10"><img src="img/1.jpg" alt="" class="jigsaw-space-holder" /></div>
+            <div class="col-3 jigsaw-space jigsaw-drop-space" data-piece="11"><img src="img/1.jpg" alt="" class="jigsaw-space-holder" /></div>
+          </div>
+        </div>
+        <div id="jigsaw-complete">
+          <img src="img/Wedding invite.jpg" alt="" class="w-100"/>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+  <script src="app.js" type="text/javascript"></script>
+</body>
